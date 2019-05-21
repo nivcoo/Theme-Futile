@@ -1,0 +1,22 @@
+#news {
+
+	background-color: white;
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+#news .section-heading {
+	font-family: 'Concert One', sans-serif;
+	padding: 25px;
+	color: white
+}
+
+#news .panel-default {
+	font-family: 'Righteous', cursive;
+}
+
+#news .title-news {
+	height: 6pc;
+	background-color: #337ab7
+}

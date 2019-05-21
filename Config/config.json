@@ -1,0 +1,59 @@
+{
+   "name":"Futile",
+   "slug":"Futile",
+   "author":"nivcoo, 0ddlyoko",
+   "version":"2.0.3",
+   "apiID":117,
+   "slider":false,
+   "configurations":{
+      "accueil":{
+         "ip":"play.mineweb.fr",
+         "slider":"",
+         "favicon":""
+      },
+      "img_edit":"1",
+      "footer":{
+         "un":{
+            "titre":"Serveur",
+            "lien":""
+         },
+         "deux":{
+            "titre":"Service minecraft",
+            "lien":""
+         },
+         "trois":{
+            "titre":"Fortnite",
+            "lien":""
+         },
+         "infos":""
+      },
+      "service":{
+         "un":{
+            "titre":"Titre 1",
+            "description":"Description 1",
+            "image":"",
+            "lien":""
+         },
+         "deux":{
+            "titre":"Titre 2",
+            "description":"Description 2",
+            "image":"",
+            "lien":""
+         },
+         "trois":{
+            "titre":"Titre 3",
+            "description":"Description 3",
+            "image":"",
+            "lien":""
+         }
+      },
+      "boutique":"<h2 class=\"section-heading\" style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 class=\"section-heading\" style=\"text-align: center;\"><span style=\"color: #000000;\">Boutique</span></h2>\r\n<p>&nbsp;</p>\r\n<p>Si vous voulez modifier cette section, allez dans la configuration du th&egrave;me.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"color: #000000; font-size: 10pt; font-family: arial, helvetica, sans-serif;\">Quae cum multiplices clades nulla filius pater villam suam filius exilium levius et igitur constaret cum ambo locum lapide ut ad quae et clades villam pervenissent fractis levius scilicet villam pater disiungitur multorum multiplices ab multiplices clades suam multorum actitata est acti est non acti clades et nomine cum mandatum multorum nomine acti ambo ambigerentur multiplices Apollinares ab post in levius ambo quae in constaret dilatata constaret dilatata acti et cum scilicet dilatata villam ambo nomine est est Apollinares ambo constaret fractis per ambo quaedam vicensimo nulla in quae Apollinares levius per occiduntur in et ambo quarto quarto pervenissent per.</span></p>\r\n<h3 style=\"text-align: center;\">&nbsp;</h3>\r\n<p><br /><br /></p>",
+      "votes":{
+         "un":"3 points boutique",
+         "deux":"2 points boutique",
+         "trois":"1 point boutique"
+      },
+      "logo":false
+   },
+   "supported":{}
+}

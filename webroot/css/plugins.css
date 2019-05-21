@@ -1,0 +1,83 @@
+#signup {	margin-top: 40px;	margin-bottom: 50px;}#signup .title-profil {	font-family: 'Concert One', sans-serif;}#signup .sign {    font-family: 'Righteous', cursive;    }#boutique {
+	margin-top: 40px;
+	margin-bottom: 50px;
+
+}
+
+.profile {
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+#boutique .panel-categories {
+	font-family: 'Concert One', sans-serif;
+}
+
+.categories {
+	background-color: #337ab7;
+	color: white;
+	font-family: 'Righteous', cursive;
+}
+
+.categories:hover {
+	color: #222629;
+}
+
+#boutique .items {
+	border-radius: 0px;
+	background-color: #222629;
+	color: white;
+	font-family: 'Righteous', cursive;
+}
+
+#boutique .items:hover {
+
+	color: #337ab7;
+
+}
+
+#boutique .thumbnail img {
+	width: 100%;
+	margin: 0 auto;
+
+	display: block;
+
+}
+
+#boutique .thumbnail {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 30px;
+
+}
+
+#boutique .compte-shop {
+	margin-top: 5pc;
+	font-family: 'Concert One', sans-serif;
+}
+
+#boutique .thumbnail .caption-full {
+
+	padding: 20px;
+
+	color: #333;
+
+}
+
+#votes {
+	margin-top: 40px;
+	margin-bottom: 50px;
+
+}
+
+#votes .panel-heading {
+	font-family: 'Concert One', sans-serif;
+	text-align: center;
+	font-size: 20px
+}
+
+#votes .button-votes {
+	background-color: #337ab7;
+	color: white;
+	font-family: 'Righteous', cursive;
+}

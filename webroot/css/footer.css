@@ -1,0 +1,225 @@
+#footer {
+	position: relative;
+	background-color: #222629;
+	width: 100%;
+	border-top: 4px solid #337ab7;
+}
+
+#footer .footer-up-blue {
+	background: #337ab7;
+	height: 29px;
+	text-align: center;
+	display: flex;
+}
+
+#footer .right-footer {
+	width: 50%;
+}
+
+#footer .left-footer {
+	width: 50%;
+}
+
+#footer .title-footer {
+	text-align: center;
+	margin-top: 18px;
+	font-size: 30px;
+	font-family: 'Concert One', sans-serif;
+	color: white;
+}
+
+#footer .title-votes {
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 12px;
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 20px;
+	font-family: 'Concert One', sans-serif;
+	color: white;
+}
+
+#footer .stats-title {
+	text-align: center;
+	margin-left: 10px;
+	text-align: left;
+	margin-top: 8px;
+	font-size: 14px;
+	font-family: 'Concert One', sans-serif;
+	color: white;
+}
+
+#footer .lien-title {
+	text-align: center;
+	margin-left: 35px;
+	text-align: left;
+	margin-top: 8px;
+	font-size: 16px;
+	font-family: 'Concert One', sans-serif;
+	color: white;
+}
+
+#footer .infos-footer {
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: left;
+	margin-top: 8px;
+	font-size: 12px;
+	color: white;
+}
+
+#footer .footer-left {
+	width: 39%;
+	overflow: hidden;
+	border-right: 2px solid #1b1e21;
+}
+
+#footer .footer-right {
+	width: 39%;
+	height: 200px;
+	border-left: 2px solid #1b1e21;
+}
+
+#footer .footer-middle {
+	width: 22%;
+}
+
+#footer .player-skin {
+	display: inline-block;
+}
+
+#footer .player-info {
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#footer .player-info:hover {
+	color: #337ab7;
+	transition: all 1s;
+}
+
+#footer .player-name {
+	padding-top: 10px;
+	border-top: 1px solid black;
+	line-height: 1;
+	display: block;
+}
+ 
+#footer .section-footer {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+#footer .votes {
+	display: inline-block;
+}
+
+#footer .socials {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer .social-btn {
+	margin: 2px 5px;
+}
+
+#footer .social-btn,
+#footer .social-btn a {
+	display: block;
+}
+
+#footer .social-btn a {
+	background: #171616;
+	width: 53.22px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	padding: 13px;
+}
+
+#footer .social-btn a:hover {
+	opacity: .7;
+	-ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+#footer .social-btn i {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+#footer a {
+	color: #337ab7;
+	font-family: 'Righteous', cursive;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #46aaff;
+}
+
+#footer .footer-by {
+	background: rgba(0, 0, 0, 0.2);
+	padding: 15px 20px;
+	font-size: 17px;
+	overflow: hidden;
+}
+
+@media (max-width: 992px) {
+	#footer .footer-middle {
+		display: none;
+	}
+	
+	#footer .right-footer {
+		display: none;
+    }
+	
+	#footer .left-footer {
+		width: 100%;
+    }
+
+	#footer .footer-left {
+		width: 50%;
+		border-right: none;
+	}
+
+	#footer .footer-right {
+		width: 50%;
+		height: 200px;
+		border-left: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	#footer .player-info {
+		margin: -10px;
+
+	}
+}
+@media (max-width: 520px) {
+	#footer .footer-left {
+		width: 60%;
+	}
+	#footer .lien-title{
+    font-size: 12px;
+	}
+	#footer .footer-right {
+		width: 40%;
+	}
+}
+
+@media (max-width: 720px) {
+	#footer .footer-by {
+		background: rgba(0, 0, 0, 0.2);
+		padding: 15px 20px;
+		font-size: 14px;
+	}
+}

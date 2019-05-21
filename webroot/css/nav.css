@@ -1,0 +1,184 @@
+#mainNav {
+	font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	background-color: #222629;
+}
+
+#mainNav .navbar-toggler {
+	font-size: 14px;
+	padding: 11px;
+	color: white;
+	border: 1px solid white;
+}
+#mainNav .dropd-menu {
+	font-size: 14px;
+	text-align:center;
+	height:40px;
+	border: 1px solid black;
+}
+#mainNav .title-drop {
+	color:black;
+	text-decoration:none;
+	display:block;
+	height: 40px;
+	padding: 8px;
+}
+#mainNav .title-drop:hover {
+	color:white;
+}
+
+#mainNav .dropd-menu:hover {
+	background-color:#337ab7;
+}
+
+#mainNav .navbar-brand {
+	font-weight: 700;
+}
+
+#mainNav .title {
+	color: #337ab7;
+	font-size: 32px;
+	font-family: 'Concert One', sans-serif;
+}
+
+#mainNav .navbar-nav {
+}
+
+#mainNav .navbar-nav li {
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out;
+	padding: 3px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#mainNav .nav-main > li:hover {
+	outline: none;
+	background-color: rgba(255, 255, 255, .1);
+}
+
+#nav-admin-buttons {
+	text-transform: none;
+	padding: 0 10px;
+	overflow: auto;
+}
+
+#nav-admin-buttons > a {
+	padding: 0px;
+}
+
+#nav-admin-buttons > a:not(:last-child) {
+
+}
+
+#nav-admin-buttons > a:not(:first-child) {
+
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#nav-admin-buttons > a:hover {
+	height: 20px;
+	outline: none;
+	background-color: rgba(255, 255, 255, .1);
+}
+
+.nav-all-size {
+	width: 100%;
+}
+
+.nav-bottom {
+
+	width: 100%;
+	position: absolute;
+	background-color: #337ab7;
+	top: 100%;
+	left: 0;
+}
+
+.nav-bottom #hidder {
+
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 90%;
+	width: 30px;
+	text-align: center;
+	background-color: inherit;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.nav-bottom #hidder:hover {
+	cursor: pointer;
+}
+
+.right {
+	float: right;
+}
+
+@media (max-width: 992px) {
+	#mainNav a {
+		color: #ffffff;
+		font-family: 'Righteous', cursive;
+	}
+
+	.NavtitlePhone {
+		position: absolute;
+		right: 10%;
+		top: 0;
+
+	}
+
+	.Navtitle {
+		display: none
+
+	}
+}
+@media (max-width: 520px) {
+#nav-admin-buttons {
+    font-size:20px
+}
+.nav-bottom #hidder {
+    margin-left: 70px;
+
+}
+}
+
+@media (min-width: 992px) {
+	.NavtitlePhone {
+		display: none;
+	}
+
+	.Navtitle {
+	}
+
+	#mainNav a {
+		color: #ffffff;
+		font-family: 'Righteous', cursive;
+	}
+
+	#mainNav {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		-webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+		-moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+		transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+		letter-spacing: 0;
+	}
+
+	#mainNav.navbar-shrink {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background: black;
+	}
+
+	#mainNav .nav-link.active {
+		outline: none;
+		background-color: black;
+	}
+}
