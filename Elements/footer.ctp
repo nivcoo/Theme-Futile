@@ -182,7 +182,7 @@
                     <div class="title-footer">
                         Informations
                     </div>
-                    <div class="infos-footer">
+                    <div class="infos-footer text-center">
                         <?= $theme_config['footer']->infos ?>
                     </div>
                 </div>
