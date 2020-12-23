@@ -81,7 +81,7 @@ echo $this->Html->script('admin/tinymce/tinymce.min.js');
                                 <div class="box-body" style="">
                                     <div class="form-group">
                                         <input type="checkbox" id="disable_vote" name="footer[disable_vote]" value="<?= $config['footer']->disable_vote ?>" <?= (isset($config['footer']->disable_vote) && $config['footer']->disable_vote == 'true') ? ' checked' : '' ?>>
-                                        <label for="navbar">Afficher des votes dans le footer</label>
+                                        <label for="navbar">Cacher les votes dans le footer</label>
                                         <script>
                                             $('#disable_vote').change(function(){
                                                 if($('#disable_vote').is(':checked')) {
