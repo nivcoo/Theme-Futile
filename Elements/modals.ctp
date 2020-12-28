@@ -201,28 +201,31 @@
 							<input style="border-radius:0px" type="email" class="form-control" name="email" placeholder="<?= $Lang->get('USER__EMAIL_LABEL') ?>">
 						</div>
 					</div>
-					<?php if($reCaptcha['type'] == "google") { ?>
-					<script src='https://www.google.com/recaptcha/api.js'></script>
-					<div class="form-group">
-						<label class="col-sm-2 control-label"><?= $Lang->get('FORM__CAPTCHA') ?></label>
-						<div class="col-sm-10">
-							<div class="g-recaptcha" data-sitekey="<?= $reCaptcha['siteKey'] ?>"></div>
-						</div>
-					</div>
-					<?php } else { ?>
-					<div class="form-group">
-						<label for="inputPassword3" class="col-sm-4 control-label"><?= $Lang->get('FORM__CAPTCHA') ?></label>
-						<div  class="col-sm-10">
-							<?php
-                  echo $this->Html->image(array('controller' => 'user', 'action' => 'get_captcha', 'plugin' => false, 'admin' => false), array('plugin' => false, 'admin' => false, 'id' => 'captcha_image'));
-							echo $this->Html->link(Recharger, 'javascript:void(0);',array('id' => 'reload'));
-							?>
-						</div>
-					</div>
-					<div class="col-sm-10">
-						<input type="text" style="border-radius:0px" class="form-control" name="captcha" id="inputPassword3" placeholder="<?= $Lang->get('FORM__CAPTCHA_LABEL') ?>">
-					</div>
-					<?php } ?>
+
+                    <?php if($captcha['type'] == "google") { ?>
+                        <script src='https://www.google.com/recaptcha/api.js'></script>
+                        <div class="form-group">
+                            <h5><?= $Lang->get('FORM__CAPTCHA') ?></h5>
+                            <div class="g-recaptcha" data-sitekey="<?= $captcha['siteKey'] ?>"></div>
+                        </div>
+                    <?php } else if($captcha['type'] == "hcaptcha") { ?>
+                        <script src='https://www.hCaptcha.com/1/api.js' async defer></script>
+                        <div class="form-group">
+                            <h5><?= $Lang->get('FORM__CAPTCHA') ?></h5>
+                            <div class="h-captcha" data-sitekey="<?= $captcha['siteKey'] ?>"></div>
+                        </div>
+                    <?php } else { ?>
+                        <div class="form-group">
+                            <h5><?= $Lang->get('FORM__CAPTCHA') ?></h5>
+                            <?php
+                            echo $this->Html->image(array('controller' => 'user', 'action' => 'get_captcha', 'plugin' => false, 'admin' => false), array('plugin' => false, 'admin' => false, 'id' => 'captcha_image'));
+                            echo $this->Html->link($Lang->get('FORM__RELOAD_CAPTCHA'), 'javascript:void(0);',array('id' => 'reload'));
+                            ?>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="captcha" id="inputPassword3" placeholder="<?= $Lang->get('FORM__CAPTCHA_LABEL') ?>">
+                        </div>
+                    <?php } ?>
 					<?php if (!empty($condition)) { ?>
 					  <br><div class="col-sm-10">
 						<div class="checkbox">

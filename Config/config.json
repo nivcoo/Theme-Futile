@@ -2,15 +2,13 @@
   "name": "Futile",
   "slug": "Futile",
   "author": "nivcoo, 0ddlyoko",
-  "version": "2.0.4",
-  "apiID": 117,
+  "version": "2.1.0",
   "slider": false,
   "configurations": {
     "accueil": {
       "ip": "play.mineweb.fr",
       "slider": ""
     },
-    "favicon_url": "",
     "footer": {
       "un": {
         "titre": "Serveur",
